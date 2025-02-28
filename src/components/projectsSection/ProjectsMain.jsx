@@ -3,34 +3,71 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+
+
 const projects = [
   {
-    name: "Vacation of Africa",
+    name: "Aqual Experts",
     year: "Mar2022",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image:"/images/Projects/aqua-experts.PNG",
+    link: "https://aqua-experts.com",
   },
   {
-    name: "Moola App",
+    name: "Homacswiss",
     year: "Sept2022",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "/images/Projects/homacswiss.PNG",
+    link: "https://Homacswiss.ch",
   },
   {
-    name: "Tourzania",
+    name: "VARS Web Application",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "/images/Projects/vars.PNG",
+    link: "https://vars.neirahtech.com",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Ajimi Institute of Electronics",
+    year: "May2023",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "/images/Projects/ajimi.PNG",
+    link: "www.Ajimi.org",
+  },
+  {
+    name: "Eazhilisai Institute of Music",
+    year: "Jan2024",
+    align: "right",
+    image: "/images/website-img-3.jpg",
+    link: "https://eazhisai.com",
+  },
+  {
+    name: "D plus Landscaping",
+    year: "Jan2025",
+    align: "left",
+    image: "/images/Projects/dplus.PNG",
+    link: "https://dpluslandscaping.com",
+  },
+  {
+    name: "KK99 Proline",
+    year: "Jan2025",
+    align: "right",
+    image: "/images/Projects/kk99.PNG",
+    link: "https://kk99proline.com",
+  },
+  {
+    name: "Trinco Tools",
+    year: "Feb2025",
+    align: "left",
+    image: "/images/Projects/trincotools.PNG",
+    link: "https://trincotools.lk",
+  },
+  {
+    name: "Thillaiyan Organics",
+    year: "Feb2025",
+    align: "right",
+    image: "/images/Projects/thillaiyan.PNG",
+    link: "https://thillaiyan.com",
   },
 ];
 

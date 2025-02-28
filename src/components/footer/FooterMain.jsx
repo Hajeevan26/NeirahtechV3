@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const FooterMain = () => {
   const footerLinks = [
     {
-      name: "About Me",
+      name: "About Us",
       section: "about",
     },
     {

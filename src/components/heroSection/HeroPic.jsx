@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import NeirahtechImage from '/images/Neirahtech_logo.png';
 
 const HeroPic = () => {
   return (
@@ -12,8 +13,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/Neirahtech.png"
-        alt="Abdelrahman Qassem"
+        src={NeirahtechImage}
+        alt="Neirahtech Logo"
         className="max-h-[450px] w-auto"
       />
 
